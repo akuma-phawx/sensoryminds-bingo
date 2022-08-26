@@ -1,0 +1,65 @@
+// Hardcored, to be fetched in the future.
+export const generations = [
+  {
+    id: 0,
+    title: 'Gen 1 - Kanto',
+    gameVersions: [
+      { title: 'Red' },
+      { title: 'Blue' },
+      { title: 'Yellow' },
+      { title: 'FireRed' },
+      { title: 'LeafGreen' },
+    ],
+    challenges: [
+      'Catch 100 Pkmn',
+      'Catch Shiny Pkmn',
+      'Get Pkmn lvl 80',
+      'Defeat Elite 4',
+      'Obtain bicycle',
+      'Obtain Macho Brace',
+      'Use 5 Rare Candies',
+      'Obtain Fly',
+      'Obtain 1 Dragon Pkmn',
+    ],
+  },
+  {
+    id: 1,
+    title: 'Gen 2 - Johto',
+    gameVersions: [
+      { title: 'Gold' },
+      { title: 'Silver' },
+      { title: 'Crystal' },
+    ],
+    challenges: [
+      'Catch 100 Pkmn',
+      'Catch Shiny Pkmn',
+      'Get Pkmn lvl 80',
+      'Defeat Elite 4',
+      'Obtain bicycle',
+      'Obtain Macho Brace',
+      'Use 5 Rare Candies',
+      'Obtain Fly',
+      'Obtain 1 Dragon Pkmn',
+    ],
+  },
+  {
+    id: 2,
+    title: 'Gen 3 - Hoenn',
+    gameVersions: [
+      { title: 'Ruby' },
+      { title: 'Saphire' },
+      { title: 'Emerald' },
+    ],
+    challenges: [
+      'Catch 100 Pkmn',
+      'Catch Shiny Pkmn',
+      'Get Pkmn lvl 80',
+      'Defeat Elite 4',
+      'Obtain bicycle',
+      'Obtain Macho Brace',
+      'Use 5 Rare Candies',
+      'Obtain Fly',
+      'Obtain 1 Dragon Pkmn',
+    ],
+  },
+];

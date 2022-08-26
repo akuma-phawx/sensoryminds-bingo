@@ -1,0 +1,15 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.selectors-container {
+  display: flex;
+  gap: 20px;
+}
+h1 {
+  margin-top: 20px;
+}

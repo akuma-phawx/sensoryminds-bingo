@@ -1,0 +1,25 @@
+.bingo-field {
+  display: grid;
+  gap: 5px; // for demonstration purposes
+  word-wrap: break-word;
+  gap: 40px;
+  border: 2px solid black;
+  padding: 25px;
+}
+
+.introduction {
+  text-align: center;
+  .player1 {
+    padding: 5px;
+    background-color: red;
+  }
+  .player2 {
+    padding: 5px;
+    background-color: blue;
+  }
+}
+
+.winnerButtonContainer {
+  display: flex;
+  justify-content: center;
+}

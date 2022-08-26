@@ -1,0 +1,22 @@
+.bingo-block {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.bingo-block:not(.nohover):hover {
+  cursor: pointer;
+}
+
+.bingo-both {
+  color: white;
+  background: linear-gradient(to right, red 50%, blue 50%);
+}
+
+.bingo-p1 {
+  color: white;
+  background-color: red;
+}
+.bingo-p2 {
+  color: white;
+  background-color: blue;
+}
