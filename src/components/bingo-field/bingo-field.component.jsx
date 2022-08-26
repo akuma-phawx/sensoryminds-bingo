@@ -117,7 +117,8 @@ const BingoField = () => {
     <Fragment>
       <div className="introduction">
         <h1>
-          <span className="player1">{player1}</span> vs{' '}
+          <span className="player1">{player1}</span>
+          <span> vs </span>
           <span className="player2">{player2}</span>
         </h1>
         <p>Game: {generations[gen].title}</p>

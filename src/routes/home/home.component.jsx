@@ -72,7 +72,7 @@ const Home = () => {
       </Link>
       <div className="linkContainer">
         <a href="https://github.com/akuma-phawx/sensoryminds-bingo">
-          <i class="nes-octocat animate is-small" />
+          <i className="nes-octocat animate is-small" />
         </a>
       </div>
     </div>

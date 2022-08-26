@@ -1,11 +1,22 @@
-.nes-input {
-  width: 350px;
-  margin: 0px 15px;
-}
+// .nes-input {
+//   width: 350px;
+//   margin: 0px 15px;
+// }
 
 .input-container {
-  display: flex;
-  padding: 15px;
-  justify-content: center;
-  align-items: center;
+  margin: 20px;
+  input {
+    text-align: center;
+  }
 }
+
+// @media screen and (max-width: 800px) {
+//   .input-container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: start;
+//     input {
+//       width: 50%;
+//     }
+//   }
+// }

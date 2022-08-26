@@ -1,25 +1,38 @@
 .bingo-field {
   display: grid;
-  gap: 5px; // for demonstration purposes
-  word-wrap: break-word;
-  gap: 40px;
-  border: 2px solid black;
-  padding: 25px;
+  grid-auto-rows: 100px;
+  gap: 5px;
+  margin: 5px;
 }
 
 .introduction {
   text-align: center;
+
+  h1 {
+    padding: 15px;
+  }
   .player1 {
-    padding: 5px;
+    color: white;
+    padding: 12px;
     background-color: red;
   }
   .player2 {
-    padding: 5px;
+    color: white;
+    padding: 12px;
     background-color: blue;
+  }
+}
+@media screen and (max-width: 800px) {
+  .introduction {
+    h1 {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
 .winnerButtonContainer {
   display: flex;
   justify-content: center;
+  margin-top: 25px;
 }

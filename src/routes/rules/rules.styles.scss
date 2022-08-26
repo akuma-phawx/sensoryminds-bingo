@@ -1,6 +1,80 @@
-.message {
-  text-align: center;
+// .message {
+//   text-align: center;
+//   li {
+//  text-align: left;
+//   }
+// }
+
+// @media screen and (max-width: 800px) {
+//   .rules-container {
+//     width: 100%;
+//     max-width: 800px;
+//   }
+// }
+.message-list {
+  display: flex;
+  flex-direction: column;
   li {
     text-align: left;
+  }
+  .-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nes-balloon {
+      width: 60%;
+    }
+    i {
+      margin: 25px;
+    }
+  }
+  .-right {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nes-balloon {
+      width: 60%;
+    }
+    .nes-list {
+      padding: 5px;
+    }
+    i {
+      margin: 25px;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .message-list {
+    display: flex;
+    flex-direction: column;
+    .-left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nes-balloon {
+        width: 60%;
+      }
+      i {
+        margin: 5px;
+      }
+    }
+    .-right {
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+      justify-content: space-between;
+
+      .nes-balloon {
+        width: 60%;
+      }
+      .nes-list {
+        padding: 5px;
+      }
+      i {
+        margin: 5px;
+      }
+    }
   }
 }

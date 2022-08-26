@@ -1,15 +1,46 @@
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
-.selectors-container {
-  display: flex;
-  gap: 20px;
+.inputs-container {
+  text-align: center;
+  margin-bottom: 50px;
 }
-h1 {
+.selectors-container {
+  text-align: center;
+  margin-bottom: 50px;
+  .selector-block:nth-child(2) {
+    margin-top: 18px;
+  }
+  select {
+    text-align: center;
+  }
+}
+.linkContainer {
   margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: medium;
+    margin-top: 20px;
+  }
+
+  .inputs-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 500px;
+  }
+
+  .linkContainer {
+    display: none;
+  }
 }
