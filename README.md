@@ -1,1 +1,1 @@
-# Bingo Assignment by Sensory Minds (Pokemon Version)
+# Bingo Assignment by Sensory Minds (Pkmn Version)
