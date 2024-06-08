@@ -1,2 +1,2 @@
-# Bingo Assignment by Sensory Minds (Pkmn Version)__
+# Bingo Assignment by Sensory Minds (Pkmn Version)_
 _w
